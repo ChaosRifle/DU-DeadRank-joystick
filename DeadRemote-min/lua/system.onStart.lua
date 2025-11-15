@@ -1,6 +1,6 @@
 json = require("dkjson")
 Atlas = require('atlas')
-
+PLAYER_ID = player.getId()
 function profile(func, name, ...)
     local start_time = system.getArkTime()
     local result = {func(...)}
